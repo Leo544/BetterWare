@@ -1,0 +1,114 @@
+.navbar{
+    background-color: #00c1de;
+    position: sticky;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(145, 143, 143);
+}
+
+.tabs-titulo{
+    color: black;
+    background-color: aqua;
+}
+
+.colum-catalogo{
+    margin-bottom: 20px !important;
+}
+
+.better{
+    color: #00c1de;
+}
+
+.colum-catalogo{
+    display: flex;
+    align-items: center;
+}
+
+
+.mat-tab-label-content{
+    color: aqua !important;
+}
+
+.social-bar{
+    position: fixed;
+    left: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .4rem;
+    display: flex;
+    transition: all .5s;
+}
+
+
+.bi-facebook{
+    color: #00c1de;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 100%;
+    padding: 10%;
+}
+
+.bi-tiktok{
+    color: #f62b52;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 100%;
+    padding: 10%;
+}
+
+.bi-whatsapp{
+    color: #47c254;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 100%;
+    padding: 10%;
+}
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:first-child{
+    border-radius: 0 0 0 1rem;
+}
+
+.img-oportunidades{
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+.colum-catalogo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-bar{
+    z-index: 100;
+}
+
+.carousel-inner img{
+    height: 30% !important;
+}
+
+iframe{
+    width: 100%;
+}
+
+}
